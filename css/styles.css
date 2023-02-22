@@ -4,23 +4,8 @@
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
   background-color: #fff;
 }
-
-.wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1;
-}
-
-/* Additional styling for content and other elements */
 
 
 a, a:hover, a:focus, a:active {
@@ -32,16 +17,14 @@ a, a:hover, a:focus, a:active {
 .image {
   display: flex;
   height: auto;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-items: center;
 }
 
 .hero-image {
   justify-content: center;
-  bottom: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
   z-index: 900;
   width:100%;
   max-width:600px;
@@ -49,15 +32,19 @@ a, a:hover, a:focus, a:active {
 
 /* This is the Menu Bar */
 .container {
-  display: flex;
+  background-color: #555;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
-  flex-flow: row wrap;
-  flex-shrink: 0;
-  flex-grow: inherit;
-  justify-content: center;
-  flex: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  z-index: 999;
 }
 
 .container li {
@@ -66,7 +53,7 @@ a, a:hover, a:focus, a:active {
 
 .container a {
   display: flex;
-  position: relative;
+  flex: 1;
   padding: 30px 30px 20px;
   margin: 0 -10px 5px;
   text-align: center;
@@ -83,17 +70,21 @@ a, a:hover, a:focus, a:active {
 }
 
 .icon-bar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  flex: auto;
-  text-align: center;
-  margin-top: 5px;
-  width: 100%;
+  background-color: #555;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-end;
+  z-index: 999;
 }
 
 .icon-bar a {
-  padding: 16px;
+  padding: 30px 30px 20px;
+  flex: 1;
   z-index: 999;
   color: #55a7aa;
 }
