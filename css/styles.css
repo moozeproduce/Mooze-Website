@@ -16,7 +16,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: hsl(0, 0%, 0%);
     background-image: url('/assets/bg-desktop-new.jpg');
     background-size: cover;
     background-position: center center;
@@ -96,7 +96,7 @@
     -o-transform: translate(-50%,-50%); 
     transform: translate(-50%,-50%); 
     margin-left: -17vw;
-    box-shadow: -0px 8px 6px #00000088;
+    box-shadow: -0px 8px 6px hsla(0, 0%, 0%, 0.533);
   }
 
   #igethigh { 
@@ -112,7 +112,7 @@
   #album-text { 
     display: block; 
     margin: 1vw auto; 
-    color: #c8a8d5; 
+    color: hsl(283, 35%, 75%); 
     text-transform: uppercase; 
     text-align: center; 
     font-size: 1.8vw; 
@@ -127,8 +127,8 @@
   .listen-button { 
     display: block; 
     margin: 1vw auto; 
-    color: #c8a8d5; 
-    border: 3px solid #c8a8d5; 
+    color: hsl(283, 35%, 75%); 
+    border: 3px solid hsl(283, 35%, 75%); 
     border-radius: 20%; 
     text-transform: uppercase; 
     text-decoration: none; 
@@ -154,8 +154,8 @@
   }
   */
   .listen-button:hover { 
-    color: #55a7aa; 
-    border: 3px solid #55a7aa; 
+    color: hsl(182, 33%, 50%); 
+    border: 3px solid hsl(182, 33%, 50%); 
   }
 
   /*styles for nav bar*/
@@ -163,7 +163,7 @@
     position: absolute;
     bottom: 2.5vw; left: 2vw;
     display: block;
-    color: #5aa7aa;
+    color: hsl(182, 32%, 51%);
     text-align: left;
   }
 
@@ -172,14 +172,14 @@
     font-size: 1.2vw;
     text-decoration: none;
     text-transform: uppercase;
-    color: #5aa7aa;
+    color: hsl(182, 32%, 51%);
     transition:color 300ms;
     cursor: pointer;
     margin: 0px 0.5vw;
   }
 
   .nav-button:hover { 
-    color: #ddd; 
+    color: hsl(0, 0%, 87%); 
   }
 
   #bottom-logo { position: absolute; 
@@ -203,14 +203,14 @@
     bottom: 2.5vw; 
     right: 2vw; 
     display: block; 
-    color: #ffffff; 
+    color: hsl(0, 0%, 100%); 
     text-align: right; 
   }
 
   .social-button { 
     display: inline-block; 
     font-family: 'fontello'; 
-    color: #5aa7aa; 
+    color: hsl(182, 32%, 51%); 
     font-size: 1.4vw; 
     text-decoration: none; 
     transition: color 300ms; 
@@ -218,7 +218,7 @@
   }
 
   .social-button:hover { 
-    color: #ddd; 
+    color: hsl(0, 0%, 87%); 
   }
 
   .screenreader-text { 
@@ -230,7 +230,7 @@
   }
 
   .screenreader-text:focus { 
-    color: black; 
+    color: #000000; 
     display: inline-block; 
     height: auto; 
     width: auto; 
@@ -396,7 +396,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.5);
   }
 
   .popup-content {
@@ -407,10 +407,10 @@
     width: 80%;
     max-width: 800px;
     max-height: 80%;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -424,7 +424,7 @@
     right: 10px !important;
     font-size: 20px;
     font-weight: bold;
-    color: #555;
+    color: hsl(0, 0%, 33%);
     cursor: pointer;
   }
 
