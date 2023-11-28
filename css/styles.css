@@ -83,7 +83,7 @@
     display: inline-block; 
     width: 25vw; 
     height: 25vw; 
-    background-image: url('/assets/artwork-two.png'); 
+    background-image: url('/assets/Mooze\ -\ Want\ You\ \(Artwork\).jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center; 
@@ -100,7 +100,7 @@
   }
 
   #igethigh { 
-    display: block; 
+    display: none; 
     width: 35vw; 
     height: 9.14vw; 
     background-image: url('/assets/igethigh.png'); 
@@ -112,7 +112,7 @@
   #album-text { 
     display: block; 
     margin: 1vw auto; 
-    color: hsl(283, 35%, 75%); 
+    color: hsl(40, 86%, 61%); 
     text-transform: uppercase; 
     text-align: center; 
     font-size: 1.8vw; 
@@ -127,8 +127,8 @@
   .listen-button { 
     display: block; 
     margin: 1vw auto; 
-    color: hsl(283, 35%, 75%); 
-    border: 3px solid hsl(283, 35%, 75%); 
+    color: hsl(40, 86%, 61%); 
+    border: 3px solid hsl(40, 86%, 61%); 
     border-radius: 20%; 
     text-transform: uppercase; 
     text-decoration: none; 
@@ -352,11 +352,11 @@
     }
   	.social-button { 
       font-size: 5vw; 
-      display: block; }
-  	.social-button { 
+      display: block;
       text-align: center; 
-      margin: 3vw auto; 
+      margin: 3vw auto;  
     }
+ 
   }
 
   @media (max-width:900px) and (orientation: landscape) {
